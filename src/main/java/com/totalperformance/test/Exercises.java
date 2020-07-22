@@ -12,7 +12,7 @@ public class Exercises {
 
     private Dictionary elementDictionaty = new Dictionary() {
         @Override
-        public int size() {
+        public int size( ) {
             return 0;
         }
 
