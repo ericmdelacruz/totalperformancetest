@@ -1,0 +1,10 @@
+{
+   "__FINDERS__":[
+      {
+         "locator":"paragraph"
+      },
+      {
+         "locator":"clickable"
+      }
+   ]
+}

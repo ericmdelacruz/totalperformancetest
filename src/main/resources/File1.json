@@ -1,0 +1,14 @@
+{
+   "import":[
+      "File2.json"
+   ],
+   "Element1":{
+      "locator":"body > h1"
+   },
+   "Element2":{
+      "locator":"body > p"
+   },
+   "Element3":{
+      "locator":"#i_dont_exist"
+   }
+}
