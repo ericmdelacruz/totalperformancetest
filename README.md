@@ -10,6 +10,7 @@ This is a maven project, be sure to build it to download packages
 ###How to run
   * Execute ~/xml/Excercise1.xml and ~/xml/Excercise2.xml as testNG 
   * it's seted up for Windows, in case you are using Mac, delete .exe to chromedriver constant. ./src/main/java/com.totalperformance.test/helpers/Constants
+
 ###Interpretation Notes:
   * In case it finds import key, it adds a single definition dictionary - key: element name, value = dictionary with key: locator, value: CSS locator
   * In case it finds __FINDERS__ key, every name will be saved as key with empty value.
