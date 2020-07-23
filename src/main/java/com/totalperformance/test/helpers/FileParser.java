@@ -40,7 +40,7 @@ public class FileParser {
                 // if already exists saves locator in case it's empty, if not it ignores the new value.
                 switch ((String)k) {
                     case "import": ((List)v).forEach(e -> getElementsDictionary (map, e)); break;
-                    case "__FINDERS__": ((List)v).forEach(e -> map.put(((Map)e).get("locator"),null)); break;
+                    case "__FINDERS__": ((List)v).forEach(e -> map.put(((Map)e).get("locator"), "")); break;
                     default: map.put(k,v);
                 }
             });

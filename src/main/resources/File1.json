@@ -3,10 +3,10 @@
       "File2.json"
    ],
    "Element1":{
-      "locator":"body > h1"
+      "locator":"body > p:nth-child(1)"
    },
    "Element2":{
-      "locator":"body > p"
+      "locator":"body > p:nth-child(2)"
    },
    "Element3":{
       "locator":"#i_dont_exist"
